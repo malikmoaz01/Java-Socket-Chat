@@ -1,9 +1,14 @@
-Certainly! Below is a sample README.md file for your code repository:
-
-```markdown
 # Client-Server Communication System
 
 This repository contains a simple implementation of a client-server communication system using Java Socket programming. The system allows communication between a client and a server over a network.
+
+# Concept That used in There :
+1. GUI
+2. Streams
+3. Multithreading
+4. Socket Programming 
+
+# I add Comments on each line & functionality for understanding. 
 
 ## Introduction
 
@@ -26,35 +31,26 @@ To run this project, you need:
 
 1. Clone the repository to your local machine using the following command:
 
-   ```bash
-   git clone https://github.com/your-username/client-server-communication.git
-   ```
+   git clone https://github.com/your-username/Java-Socket-Chat.git
 
 2. Navigate to the project directory:
 
-   ```bash
-   cd client-server-communication
-   ```
+
+   cd Java-Socket-Chat
 
 3. Compile the Java files:
 
-   ```bash
    javac *.java
-   ```
 
 ## Usage
 
 1. Start the server by running the following command:
 
-   ```bash
    java Server
-   ```
 
 2. Once the server is running, start the client by running:
 
-   ```bash
    java Client
-   ```
 
 3. You should see messages indicating the client and server are connected.
 
